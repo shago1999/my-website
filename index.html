@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sairaj Khilari – Game Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sairaj Khilari</h1>
+    <p>Game Developer | Designer | Coder</p>
+    <button id="themeToggle">Toggle Dark Mode</button>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#games">Mini-Games</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Sairaj Khilari, a passionate game developer who loves building interactive experiences and creative projects. I specialize in Unity, web games, and 3D art.</p>
+    <a href="resume.pdf" download><button>Download Resume</button></a>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Game Design & Programming (Unity, C#, JS, Python)</li>
+      <li>2D/3D Art & Animation</li>
+      <li>Web Development (HTML, CSS, JS)</li>
+      <li>Teamwork & Problem Solving</li>
+      <li>Sound Design & Music Integration</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <table>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+        <th>Tech Used</th>
+      </tr>
+      <tr>
+        <td>Space Runner</td>
+        <td>Endless runner with power-ups and obstacles</td>
+        <td>Unity, C#</td>
+      </tr>
+      <tr>
+        <td>Puzzle Quest</td>
+        <td>Logic-based puzzle game</td>
+        <td>HTML5, JS</td>
+      </tr>
+      <tr>
+        <td>Virtual Gallery</td>
+        <td>3D art showcase in browser</td>
+        <td>Three.js, WebGL</td>
+      </tr>
+      <tr>
+        <td>Rhythm Beat</td>
+        <td>Music rhythm game with custom tracks</td>
+        <td>Unity, Audio Editing</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="games">
+    <h2>Mini-Games</h2>
+    <div id="guessGame">
+      <h3>Guess the Number</h3>
+      <p>Guess a number between 1 and 100:</p>
+      <input type="number" id="guessInput" min="1" max="100">
+      <button onclick="checkGuess()">Guess</button>
+      <p id="gameResult"></p>
+    </div>
+    <div id="clickGame">
+      <h3>Click Speed Game</h3>
+      <p>Click the button as many times as you can in 5 seconds!</p>
+      <button id="clickBtn">Start</button>
+      <p id="clickScore">Score: 0</p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      "Sairaj's games are both fun and technically impressive!" – A. Patel
+    </blockquote>
+    <blockquote>
+      "Creative, reliable, and always delivers on time." – M. Singh
+    </blockquote>
+  </section>
+
+  <section id="extras">
+    <h2>Fun Extras</h2>
+    <p><strong>Random Game Tip:</strong> <span id="tip"></span></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <ul>
+      <li>Email: sairaj.khilari@email.com</li>
+      <li>LinkedIn: linkedin.com/in/sairajkhilari</li>
+      <li>GitHub: github.com/sairajkhilari</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Sairaj Khilari. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
